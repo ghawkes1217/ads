@@ -10,7 +10,7 @@ function setImgSrcToEmpty() {
         // Check if the current src is not already an empty string
         if (img.src !== '') {
             // Set the src attribute to an empty string
-            img.src = '';
+            img.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wcAAwAB/epBmAAAAABJRU5ErkJggg==';
         }
                 if (img.alt !== '') {
             // Set the src attribute to an empty string
